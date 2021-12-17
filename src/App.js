@@ -26,8 +26,8 @@ import ScrollToTop from "./components/Imports/ScrollToTop";
 import PaymentOptions from "./components/Orders/PaymentOptions";
 import AddProduct from "./components/Admins-pages/add-product";
 import WishListPage from "./components/WishList/WishListPage";
-import MyOrders from "./components/Orders/MyOrders";
-import OrderSuccess from "./components/Orders/OrderSuccess";
+// import MyOrders from "./components/Orders/MyOrders";
+// import OrderSuccess from "./components/Orders/OrderSuccess";
 import SearchResult from "./components/Search/SearchResult";
 import { ProfilePage } from "./components/Profile/ProfilePage";
 
@@ -68,8 +68,8 @@ const App = () => {
           <Route path="/brushes" component={BrushesSinglePage} />
           <Route path="/eyes-products" component={EyeProductsPage} />
           <Route path="/products/:id" exact component={ProductDetailsPage} />
-          <Route path="/myOrders" exact component={MyOrders} />
-          <Route path="/orderSuccess" exact component={OrderSuccess} />
+          {/* <Route path="/myOrders" exact component={MyOrders} /> */}
+          {/* <Route path="/orderSuccess" exact component={OrderSuccess} /> */}
           <Route path="/aboutUs" component={AboutUS} />
           <Route path="/auth" component={Auth} />
           <Route path="/cart/:id?" component={CartPage} />
